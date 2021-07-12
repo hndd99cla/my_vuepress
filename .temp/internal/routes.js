@@ -37,14 +37,6 @@ export const routes = [
     redirect: "/components/%E5%B7%A6%E5%8F%B3%E6%8B%89%E5%8A%A8%E7%BB%84%E4%BB%B6.html"
   },
   {
-    name: "v-98bb5b48",
-    path: "/posts/121501.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-98bb5b48").then(next)
-    },
-  },
-  {
     name: "v-609aeb54",
     path: "/posts/ES6%20%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95.html",
     component: GlobalLayout,
@@ -59,6 +51,14 @@ export const routes = [
   {
     path: "/posts/ES6 常用语法.html",
     redirect: "/posts/ES6%20%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95.html"
+  },
+  {
+    name: "v-98bb5b48",
+    path: "/posts/121501.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-98bb5b48").then(next)
+    },
   },
   {
     name: "v-16132974",
@@ -93,6 +93,14 @@ export const routes = [
     redirect: "/posts/footer%E4%BD%8D%E7%BD%AE%E7%9A%84%E8%87%AA%E5%8A%A8%E9%80%82%E9%85%8D.html"
   },
   {
+    name: "v-0a1dfd74",
+    path: "/posts/uniapp.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-0a1dfd74").then(next)
+    },
+  },
+  {
     name: "v-7ab37238",
     path: "/posts/space-around%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E4%B8%8D%E8%83%BD%E5%B7%A6%E5%AF%B9%E9%BD%90.html",
     component: GlobalLayout,
@@ -107,14 +115,6 @@ export const routes = [
   {
     path: "/posts/space-around最后一行不能左对齐.html",
     redirect: "/posts/space-around%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E4%B8%8D%E8%83%BD%E5%B7%A6%E5%AF%B9%E9%BD%90.html"
-  },
-  {
-    name: "v-0a1dfd74",
-    path: "/posts/uniapp.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-0a1dfd74").then(next)
-    },
   },
   {
     name: "v-439fb3dc",
@@ -195,6 +195,22 @@ export const routes = [
   {
     path: "/posts/梯形斜边弧度tab_css实现.html",
     redirect: "/posts/%E6%A2%AF%E5%BD%A2%E6%96%9C%E8%BE%B9%E5%BC%A7%E5%BA%A6tab_css%E5%AE%9E%E7%8E%B0.html"
+  },
+  {
+    name: "v-3b0db29e",
+    path: "/posts/%E5%AE%9D%E5%A1%94pm2%E9%83%A8%E7%BD%B2node%E7%9A%84%E5%9D%91.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3b0db29e").then(next)
+    },
+  },
+  {
+    path: "/posts/宝塔pm2部署node的坑.html",
+    redirect: "/posts/%E5%AE%9D%E5%A1%94pm2%E9%83%A8%E7%BD%B2node%E7%9A%84%E5%9D%91.html"
+  },
+  {
+    path: "/posts/宝塔pm2部署node的坑.html",
+    redirect: "/posts/%E5%AE%9D%E5%A1%94pm2%E9%83%A8%E7%BD%B2node%E7%9A%84%E5%9D%91.html"
   },
   {
     path: '*',

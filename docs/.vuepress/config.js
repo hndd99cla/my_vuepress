@@ -55,6 +55,12 @@ module.exports = {
             '/posts/判断url图片是否404',
             '/posts/ajax返回blob封装'
           ]
+        },
+        {
+          title: 'node',
+          children: [
+            '/posts/宝塔pm2部署node的坑',
+          ]
         }
 
       ],

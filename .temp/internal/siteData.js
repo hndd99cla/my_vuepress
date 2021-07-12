@@ -54,56 +54,6 @@ export const siteData = {
       "lastUpdated": "4/28/2021, 11:08:26 AM"
     },
     {
-      "title": "Vue组件的通信总结",
-      "frontmatter": {
-        "title": "Vue组件的通信总结",
-        "date": "2020-03-10T00:00:00.000Z",
-        "tags": [
-          "vue组件"
-        ],
-        "categories": [
-          "vue"
-        ]
-      },
-      "regularPath": "/posts/121501.html",
-      "relativePath": "posts/121501.md",
-      "key": "v-98bb5b48",
-      "path": "/posts/121501.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1、props/$emit",
-          "slug": "_1、props-emit"
-        },
-        {
-          "level": 2,
-          "title": "2、 eventBus事件总线 $emit/$on",
-          "slug": "_2、-eventbus事件总线-emit-on"
-        },
-        {
-          "level": 2,
-          "title": "3、 provide / inject",
-          "slug": "_3、-provide-inject"
-        },
-        {
-          "level": 2,
-          "title": "4、 $parent / $children",
-          "slug": "_4、-parent-children"
-        },
-        {
-          "level": 2,
-          "title": "5、 $root & refs",
-          "slug": "_5、-root-refs"
-        },
-        {
-          "level": 2,
-          "title": "6、 Vuex",
-          "slug": "_6、-vuex"
-        }
-      ],
-      "lastUpdated": "4/28/2021, 11:08:26 AM"
-    },
-    {
       "title": "ES6 常用语法",
       "frontmatter": {},
       "regularPath": "/posts/ES6%20%E5%B8%B8%E7%94%A8%E8%AF%AD%E6%B3%95.html",
@@ -235,6 +185,56 @@ export const siteData = {
       "lastUpdated": "4/28/2021, 11:08:26 AM"
     },
     {
+      "title": "Vue组件的通信总结",
+      "frontmatter": {
+        "title": "Vue组件的通信总结",
+        "date": "2020-03-10T00:00:00.000Z",
+        "tags": [
+          "vue组件"
+        ],
+        "categories": [
+          "vue"
+        ]
+      },
+      "regularPath": "/posts/121501.html",
+      "relativePath": "posts/121501.md",
+      "key": "v-98bb5b48",
+      "path": "/posts/121501.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1、props/$emit",
+          "slug": "_1、props-emit"
+        },
+        {
+          "level": 2,
+          "title": "2、 eventBus事件总线 $emit/$on",
+          "slug": "_2、-eventbus事件总线-emit-on"
+        },
+        {
+          "level": 2,
+          "title": "3、 provide / inject",
+          "slug": "_3、-provide-inject"
+        },
+        {
+          "level": 2,
+          "title": "4、 $parent / $children",
+          "slug": "_4、-parent-children"
+        },
+        {
+          "level": 2,
+          "title": "5、 $root & refs",
+          "slug": "_5、-root-refs"
+        },
+        {
+          "level": 2,
+          "title": "6、 Vuex",
+          "slug": "_6、-vuex"
+        }
+      ],
+      "lastUpdated": "4/28/2021, 11:08:26 AM"
+    },
+    {
       "title": "ajax返回blob封装",
       "frontmatter": {},
       "regularPath": "/posts/ajax%E8%BF%94%E5%9B%9Eblob%E5%B0%81%E8%A3%85.html",
@@ -250,15 +250,6 @@ export const siteData = {
       "relativePath": "posts/footer位置的自动适配.md",
       "key": "v-c069814e",
       "path": "/posts/footer%E4%BD%8D%E7%BD%AE%E7%9A%84%E8%87%AA%E5%8A%A8%E9%80%82%E9%85%8D.html",
-      "lastUpdated": "4/28/2021, 11:08:26 AM"
-    },
-    {
-      "title": "space-around最后一行不能左对齐",
-      "frontmatter": {},
-      "regularPath": "/posts/space-around%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E4%B8%8D%E8%83%BD%E5%B7%A6%E5%AF%B9%E9%BD%90.html",
-      "relativePath": "posts/space-around最后一行不能左对齐.md",
-      "key": "v-7ab37238",
-      "path": "/posts/space-around%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E4%B8%8D%E8%83%BD%E5%B7%A6%E5%AF%B9%E9%BD%90.html",
       "lastUpdated": "4/28/2021, 11:08:26 AM"
     },
     {
@@ -300,6 +291,15 @@ export const siteData = {
           "slug": "开发"
         }
       ],
+      "lastUpdated": "4/28/2021, 11:08:26 AM"
+    },
+    {
+      "title": "space-around最后一行不能左对齐",
+      "frontmatter": {},
+      "regularPath": "/posts/space-around%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E4%B8%8D%E8%83%BD%E5%B7%A6%E5%AF%B9%E9%BD%90.html",
+      "relativePath": "posts/space-around最后一行不能左对齐.md",
+      "key": "v-7ab37238",
+      "path": "/posts/space-around%E6%9C%80%E5%90%8E%E4%B8%80%E8%A1%8C%E4%B8%8D%E8%83%BD%E5%B7%A6%E5%AF%B9%E9%BD%90.html",
       "lastUpdated": "4/28/2021, 11:08:26 AM"
     },
     {
@@ -353,6 +353,13 @@ export const siteData = {
       "key": "v-74b6e4c0",
       "path": "/posts/%E6%A2%AF%E5%BD%A2%E6%96%9C%E8%BE%B9%E5%BC%A7%E5%BA%A6tab_css%E5%AE%9E%E7%8E%B0.html",
       "lastUpdated": "4/28/2021, 11:08:26 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/posts/%E5%AE%9D%E5%A1%94pm2%E9%83%A8%E7%BD%B2node%E7%9A%84%E5%9D%91.html",
+      "relativePath": "posts/宝塔pm2部署node的坑.md",
+      "key": "v-3b0db29e",
+      "path": "/posts/%E5%AE%9D%E5%A1%94pm2%E9%83%A8%E7%BD%B2node%E7%9A%84%E5%9D%91.html"
     }
   ],
   "themeConfig": {
@@ -401,6 +408,12 @@ export const siteData = {
             "/posts/121501",
             "/posts/判断url图片是否404",
             "/posts/ajax返回blob封装"
+          ]
+        },
+        {
+          "title": "node",
+          "children": [
+            "/posts/宝塔pm2部署node的坑"
           ]
         }
       ],
