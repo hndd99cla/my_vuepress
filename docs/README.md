@@ -10,7 +10,7 @@ actionText: 快速进入→
 actionLink: /posts/uniapp.html
 features:
 - title: First
-  details: 做好自己1
+  details: 做好自己11
 - title: Second
   details: 享受生活2
 - title: Third
