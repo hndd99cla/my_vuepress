@@ -59,16 +59,15 @@ module.exports = {
         {
           title: 'node',
           children: [
-            '/posts/宝塔pm2部署node的坑',
+            '/posts/宝塔pm2部署node的坑'
           ]
         },
         {
           title: '其他',
           children: [
-            '/post/other/webhook自动部署'
+            '/posts/other/webhook自动部署'
           ]
         }
-
       ],
       '/components/': [
         {

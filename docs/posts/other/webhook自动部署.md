@@ -1,8 +1,4 @@
-<!--
- * @Description: 
- * @Author: lzx
- * @Date: 2021-07-26 17:37:59
--->
+# webhook自动部署
 # github自动部署项目到windows服务器（使用宝塔面板）
 ----
 ## 说明
