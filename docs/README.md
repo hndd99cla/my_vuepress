@@ -10,5 +10,5 @@ features:
   details: 享受生活
 - title: Third
   details: 提升未来
-footer: MIT Licensed | Copyright © 2021-present Evan You
+footer: footer: 闽ICP备 [2021005305号-1](https://beian.miit.gov.cn/)
 ---
